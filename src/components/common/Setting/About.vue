@@ -45,7 +45,7 @@ onMounted(() => {
         Version - {{ pkg.version }}
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
-       <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/K4YC1Urrctd3x0dM/quote.js?theme=2&col=true&f=12&display=0,1,1,1,1,1,1,1"></script>
+       <p>欢迎点击广告</p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
