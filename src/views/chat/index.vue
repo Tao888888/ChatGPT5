@@ -481,7 +481,13 @@ onUnmounted(() => {
           <template v-if="!dataSources.length">
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
-              <span>Aha~</span>
+              <span>
+								<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8272762342473783" crossorigin="anonymous"></script>
+								<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8272762342473783" data-ad-slot="7946032848"></ins>
+								<script>
+    						 (adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+							</span>
             </div>
           </template>
           <template v-else>
