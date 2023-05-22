@@ -483,17 +483,9 @@ onUnmounted(() => {
               <span>与AI聊天</span>
             </div>
 						<div>
-						<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8272762342473783"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-8272762342473783"
-     data-ad-slot="7946032848"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+							<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8272762342473783" crossorigin="anonymous"></script>
+							<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8272762342473783" data-ad-slot="7946032848"></ins>
+							<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 						</div>
           </template>
           <template v-else>
