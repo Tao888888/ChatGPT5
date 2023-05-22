@@ -45,7 +45,7 @@ onMounted(() => {
         Version - {{ pkg.version }}
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
-       <p>欢迎点击广告</p>
+       <p>网站支持：如果您想支持本网站的发展，可以点击本网站的广告实习免费捐助</p>
       </div>
       <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
       <p v-if="isChatGPTAPI">
@@ -60,16 +60,3 @@ onMounted(() => {
     </div>
   </NSpin>
 </template>
-
-<script>
-export default {
-  mounted() {
-    const script = document.createElement('script')
-    script.setAttribute('id', 'LA-DATA-WIDGET')
-    script.setAttribute('crossorigin', 'anonymous')
-    script.setAttribute('charset', 'UTF-8')
-    script.setAttribute('src', 'https://v6-widget.51.la/v6/K4YC1Urrctd3x0dM/quote.js?theme=2&col=true&f=12&display=0,1,1,1,1,1,1,1')
-    document.head.appendChild(script)
-  }
-}
-</script>
