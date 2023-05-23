@@ -482,8 +482,6 @@ onUnmounted(() => {
             <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <span>
 								与AI机器人聊天，发现无限乐趣<br>为了本站更好的发展，请关闭广告拦截
-								<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8272762342473783" data-ad-slot="7946032848"></ins>
-								<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 							</span>
             </div>
           </template>
