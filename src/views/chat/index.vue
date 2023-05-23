@@ -562,3 +562,11 @@ onUnmounted(() => {
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }
+};
+</script>
