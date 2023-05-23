@@ -13,10 +13,10 @@ function goHome() {
   <div class="flex h-full">
     <div class="px-4 m-auto space-y-4 text-center max-[400px]">
       <h1 class="text-4xl text-slate-800 dark:text-neutral-200">
-        Sorry, page not found!
+        抱歉，页面错误！
       </h1>
       <p class="text-base text-slate-500 dark:text-neutral-400">
-        Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be sure to check your spelling.
+        点击下面的按钮即可回到 Chat GPT 主页
       </p>
       <div class="flex items-center justify-center text-center">
         <div class="w-[300px]">
@@ -24,7 +24,7 @@ function goHome() {
         </div>
       </div>
       <NButton type="primary" @click="goHome">
-        Go to Home
+        回到主页
       </NButton>
     </div>
   </div>
